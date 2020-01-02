@@ -3,14 +3,13 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
-        default_schema: schema
     hibernate:
       ddl-auto: create
   datasource:
     #url: jdbc:mysql://localhost:3306/test
-    url: jdbc:postgresql://localhost:5432/test
+    url: jdbc:postgresql://10.10.25.157:5432/postgres?currentSchema=antonio
     username: postgres
-    password: 23people
+    password: 23People
   application:
     name: Workshop_Antonio
 server:
