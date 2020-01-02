@@ -1,8 +1,9 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/test
-    username: root
-    password: root
+    #url: jdbc:mysql://localhost:3306/test
+    url: jdbc:postgresql://localhost:5432/test
+    username: postgres
+    password: 23people
   application:
     name: Workshop_Antonio
 server:
